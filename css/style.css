@@ -1,0 +1,54 @@
+/* Command: sass --watch sass/input.scss css/style.css*/
+/*
+CSS Rule Order
+--- ---- -----
+Positioning
+Display & Box Model
+Color
+Text
+Other
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/******************** Variables ********************/
+/******************** Common ********************/
+header,
+footer {
+  height: 10vh;
+  width: 100%;
+}
+
+/******************** Header ********************/
+header {
+  border: 2px solid blue;
+}
+
+/******************** Main ********************/
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#construction {
+  font-size: 3em;
+}
+
+/******************** Footer ********************/
+footer {
+  border: 2px solid orange;
+}
+
+/*# sourceMappingURL=style.css.map */

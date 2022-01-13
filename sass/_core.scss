@@ -1,0 +1,23 @@
+/* Command: sass --watch sass/input.scss css/style.css*/
+
+/*
+CSS Rule Order
+--- ---- -----
+Positioning
+Display & Box Model
+Color
+Text
+Other
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
